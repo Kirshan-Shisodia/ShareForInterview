@@ -1,0 +1,99 @@
+.black-div-outer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    background-color: black;
+}
+
+.main_div {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.movie_size_show {
+    width: 30%;
+    border: 1px dashed black;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: small;
+}
+
+hr.hr_line {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color: lightgray;
+    height: 1px;
+    margin: 10px;
+}
+
+
+.download_btn_div{
+    padding: 20px;
+    
+}
+
+/* CSS */
+.downlaod_btn {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.downlaod_btn:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.downlaod_btn:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.downlaod_btn:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.download_episode_heading {
+  color: black;
+  /* padding: 10px; */
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
